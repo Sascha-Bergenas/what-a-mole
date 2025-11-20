@@ -27,7 +27,7 @@ Ett spel, old as time itself, whack-a-mole.
 - Steg 2. Se "mullvadarna" dyka upp i rutorna.
 - Steg 3. KLICKA PÅ DEN! KLICKA MED MUSEN! KLICKA INNAN DEN FÖRSVINNER!!
 - Steg 4. Repetera steg 1 och 2 tills tiden är ute.
-- Steg 5. repitera steg 1 - 4 tills du känner dig nöjd.
+- Steg 5. Repetera steg 1 - 4 tills du känner dig nöjd.
 
 Klickad "mullvad" = Poäng.
 
