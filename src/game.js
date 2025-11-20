@@ -50,8 +50,10 @@ export class Game {
     this._tickId = setInterval(() => {
       this.state.timeLeft--;
       this.updateHud();
-      if (this.state.timeLeft <= 0) {
-        this.reset();
+      if (this.state.timeLeft === 0) {
+        this.state.running = false;
+        clearInterval(this._tickId);
+        clearTimeout(this._spawnId);
       }
     }, 1000);
 
