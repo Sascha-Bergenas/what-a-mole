@@ -32,3 +32,20 @@ Ett spel, old as time itself, whack-a-mole.
 Klickad "mullvad" = Poäng.
 
 Missad "mullvad" = Inga poäng.
+
+## Acceptanskriterier (G)
+
+• Spelbräde 3×3 skapas dynamiskt i JS (ingen statisk HTML för hålen).
+
+• Flexbox används för brädelayout (responsivt kvadratiskt bräde).
+
+• Game-klass startar/stoppar spelet; Mole (eller motsv.) lägger till och tar bort en
+mullvad-nod i slumpmässiga hål med tidsgräns.
+
+• Klick på mullvad +1 poäng; klick bredvid räknas som miss; statusfält uppdateras i realtid.
+
+• Tangentbord: Tab för fokus, Enter/mellanslag för “whack”.
+
+• Eventdelegering från brädet (en lyssnare hanterar alla hål).
+
+• Modulär struktur med import/export.
